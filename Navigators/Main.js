@@ -16,10 +16,11 @@ const Main = () => {
   return (
     <Tab.Navigator
       initialRouteName="Home"
-      tabBarOptions={{
-        showLabel: false,
-        keyboardHidesTabBar: true,
-        activeTintColor: "#e91e63",
+      screenOptions={{
+        tabBarShowLabel: false,
+        tabBarHideOnKeyboard: true,
+        tabBarActiveTintColor: "#e91e63",
+        headerShown: false,
       }}
     >
       <Tab.Screen
